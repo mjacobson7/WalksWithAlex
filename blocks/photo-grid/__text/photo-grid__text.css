@@ -1,0 +1,22 @@
+.photo-grid__text {
+	color: #fff;
+	font-family: 'worksans', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	opacity: 0;
+	transition: 0.2s opacity ease;
+	text-align: center;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 450px) {
+	.photo-grid__text {
+		font-size: 15px;
+	}
+}

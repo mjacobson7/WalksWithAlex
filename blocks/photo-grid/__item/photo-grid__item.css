@@ -1,0 +1,12 @@
+.photo-grid__item {
+	position: relative;
+	display: inline-block;
+}
+
+.photo-grid__item:hover .photo-grid__text {
+	opacity: 1;
+}
+
+.photo-grid__item:hover .photo-grid__overlay {
+	opacity: 0.55;
+}

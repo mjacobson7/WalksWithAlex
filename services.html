@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./pages/services.css" />
+	</head>
+	<body>
+		<header class="header">
+			<a class="header__title heading-text" href="">Walks With Alex</a>
+			<nav class="header__menu header__menu_desktop">
+				<a class="header__menu-item paragraph-text" href="/">Home</a>
+				<a class="header__menu-item paragraph-text" href="/about.html">About</a>
+				<a class="header__menu-item paragraph-text" href="/services.html"
+					>Services</a
+				>
+				<a class="header__menu-item paragraph-text" href="/certifications.html"
+					>Certifications</a
+				>
+				<a
+					href="mailto:info@walkswithalex.com"
+					target="_blank"
+					class="header__menu-item button button_color_green"
+				>
+					Email Us
+				</a>
+			</nav>
+
+			<div class="header__menu header__menu_mobile">
+				<i class="header__menu-icon fas fa-bars"></i>
+			</div>
+		</header>
+
+		<section class="services">
+			<h2 class="services__title heading-text">Services</h2>
+			<ul class="cards">
+				<li class="card">
+					<img src="./images/walk30.webp" alt="" class="card__img" />
+					<h3 class="card__title">Walk - 30 minutes</h3>
+					<p class="card__price paragraph-text">$20</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/walk60.webp" alt="" class="card__img" />
+					<h3 class="card__title">Walk - 60 minutes</h3>
+					<p class="card__price paragraph-text">$30</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/boardingovernight.webp" alt="" class="card__img" />
+					<h3 class="card__title">Boarding - Overnight</h3>
+					<p class="card__price paragraph-text">$75</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/daycare.png" alt="" class="card__img" />
+					<h3 class="card__title">Daycare - 8hr</h3>
+					<p class="card__price paragraph-text">$60</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/hike.png" alt="" class="card__img" />
+					<h3 class="card__title">Hike - 1hr + pick-up</h3>
+					<p class="card__price paragraph-text">$40</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/petPhotography.png" alt="" class="card__img" />
+					<h3 class="card__title">Pet Photography</h3>
+					<p class="card__price paragraph-text">$200</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+				<li class="card">
+					<img src="./images/training.jpeg" alt="" class="card__img" />
+					<h3 class="card__title">Training</h3>
+					<p class="card__price paragraph-text">$TBD</p>
+					<p class="card__subtitle paragraph-text">
+						Use this area to describe one of your services.
+					</p>
+					<a href="" class="card__btn button button_color_yellow">Book Now</a>
+				</li>
+			</ul>
+		</section>
+
+		<footer class="footer">
+			<h2 class="footer__title heading-text">Contact</h2>
+			<ul class="footer__contact-list">
+				<li class="footer__contact-item">
+					<p class="footer__subtitle">Phone</p>
+					<p class="footer__text">(818) 794-0753</p>
+				</li>
+				<li class="footer__contact-item">
+					<p class="footer__subtitle">Email</p>
+					<p class="footer__text">info@walkswithalex.com</p>
+				</li>
+				<li class="footer__contact-item">
+					<p class="footer__subtitle">Hours of Operation</p>
+					<p class="footer__text">Monday - Sunday</p>
+					<p class="footer__text">6am - 6pm</p>
+				</li>
+				<li class="footer__contact-item">
+					<p class="footer__subtitle">Area of Service</p>
+					<p class="footer__text">San Fernando Valley</p>
+				</li>
+			</ul>
+			<form class="contact">
+				<input
+					class="contact__input contact__input_type_name"
+					aria-label="Name"
+					placeholder="Name"
+					type="text"
+					required
+				/>
+				<input
+					class="contact__input contact__input_type_email"
+					aria-label="Email"
+					placeholder="Email"
+					type="email"
+					required
+				/>
+				<textarea
+					name="message"
+					id=""
+					cols="30"
+					rows="10"
+					aria-label="Message"
+					class="contact__input contact__input_type_message"
+					placeholder="Type your message here"
+					required
+				></textarea>
+				<button class="contact__submit" type="submit">Submit</button>
+			</form>
+		</footer>
+	</body>
+</html>

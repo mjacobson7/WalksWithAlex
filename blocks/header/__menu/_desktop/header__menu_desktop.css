@@ -1,0 +1,5 @@
+@media screen and (max-width: 725px) {
+	.header__menu_desktop {
+		display: none;
+	}
+}

@@ -1,0 +1,28 @@
+.about {
+	display: grid;
+	grid-template-areas: 'photo photo title' 'photo photo text' 'photo photo button';
+	gap: 0 80px;
+	max-width: 900px;
+	width: calc(100% - 40px);
+	margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+	.about {
+		gap: 0 40px;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	.about {
+		gap: 0 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about {
+		text-align: center;
+		grid-template-areas: 'photo' 'title' 'text' 'button';
+		gap: 30px;
+	}
+}
