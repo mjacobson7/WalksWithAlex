@@ -1,0 +1,34 @@
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_desktop/header__menu_desktop.css);
+@import url(../blocks/header/__menu/_mobile/header__menu_mobile.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-item/_button/header__menu-item_button.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__contact-list/footer__contact-list.css);
+@import url(../blocks/footer/__contact-item/footer__contact-item.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__text/footer__text.css);
+
+/* Contact */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__input/contact__input.css);
+@import url(../blocks/contact/__input/_type/contact__input_type_name.css);
+@import url(../blocks/contact/__input/_type/contact__input_type_email.css);
+@import url(../blocks/contact/__input/_type/contact__input_type_message.css);
+@import url(../blocks/contact/__submit/contact__submit.css);
+
+/* Heading Text */
+@import url(../blocks/heading-text/heading-text.css);
+
+/* Button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_color/button_color_yellow.css);
+@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/paragraph-text/paragraph-text.css);
