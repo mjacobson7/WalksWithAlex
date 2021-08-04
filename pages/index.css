@@ -18,12 +18,10 @@
 @import url(../blocks/intro/__btn/intro__btn.css);
 @import url(../blocks/intro/__logo/intro__logo.css);
 
-/* About */
-@import url(../blocks/about/about.css);
-@import url(../blocks/about/__photo/about__photo.css);
-@import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__text/about__text.css);
-@import url(../blocks/about/__btn/about__btn.css);
+/* Mission */
+@import url(../blocks/mission/mission.css);
+@import url(../blocks/mission/__title/mission__title.css);
+@import url(../blocks/mission/__description/mission__description.css);
 
 /* Services */
 @import url(../blocks/services/services.css);

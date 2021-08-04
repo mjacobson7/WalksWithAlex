@@ -1,7 +1,7 @@
 .testimonials__title {
 	font-size: 62px;
 	text-align: center;
-	margin: 200px 0 0;
+	margin: 150px 0 0;
 }
 
 @media screen and (max-width: 775px) {
@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 600px) {
 	.testimonials__title {
-		margin-top: 150px;
+		margin-top: 100px;
 	}
 }
