@@ -1,4 +1,7 @@
-@media screen and (min-width: 726px) {
+.header__menu_mobile {
+}
+
+@media screen and (min-width: 940px) {
 	.header__menu_mobile {
 		display: none;
 	}
