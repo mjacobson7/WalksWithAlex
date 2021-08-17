@@ -1,13 +1,8 @@
 .about__photo {
-	/* max-width: 416px; */
+	max-width: 400px;
+	min-width: 200px;
 	border-radius: 50%;
 	grid-area: photo;
 	margin: auto;
 	width: 100%;
-}
-
-@media screen and (max-width: 960px) {
-	.about__photo {
-		/* max-width: 382px; */
-	}
 }

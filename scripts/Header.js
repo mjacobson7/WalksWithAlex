@@ -22,11 +22,6 @@ class Header {
 		templates.innerHTML = await (await fetch('./templates/header.html')).text()
 
 		return templates.content.querySelector('#header').content.cloneNode(true);
-
-
-
-
-		return document.body.querySelector('#header').content.cloneNode(true);
 	}
 
 	_setEventListeners(data) {

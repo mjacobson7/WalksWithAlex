@@ -11,11 +11,21 @@
 @import url(../blocks/header/__menu/_desktop/header__menu_desktop.css);
 @import url(../blocks/header/__menu/_mobile/header__menu_mobile.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_active/header__menu-item_active.css);
 @import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_open/header__menu-icon_open.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-icon/_hide/header__menu-icon_hide.css);
 @import url(../blocks/header/__menu-item/_button/header__menu-item_button.css);
+@import url(../blocks/header/__mobile-nav-container/header__mobile-nav-container.css);
+@import url(../blocks/header/__mobile-nav-container/_active/header__mobile-nav-container_active.css);
+@import url(../blocks/header/__mobile-nav/header__mobile-nav.css);
+@import url(../blocks/header/__mobile-item/header__mobile-item.css);
 
 /* About */
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__section/about__section.css);
+@import url(../blocks/about/__section/_reversed/about__section_reversed.css);
 @import url(../blocks/about/__photo/about__photo.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__text/about__text.css);

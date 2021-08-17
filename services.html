@@ -21,7 +21,10 @@
 				<a class="header__menu-item paragraph-text" href="./about.html"
 					>About</a
 				>
-				<a class="header__menu-item paragraph-text" href="./services.html">
+				<a
+					class="header__menu-item header__menu-item_active paragraph-text"
+					href="./services.html"
+				>
 					Services
 				</a>
 				<a class="header__menu-item paragraph-text" href="./reviews.html">
@@ -41,7 +44,31 @@
 			</nav>
 
 			<div class="header__menu header__menu_mobile">
-				<i class="header__menu-icon fas fa-bars"></i>
+				<i class="header__menu-icon header__menu-icon_open fas fa-bars"></i>
+				<i
+					class="
+						header__menu-icon header__menu-icon_close header__menu-icon_hide
+						fas
+						fa-times
+					"
+				></i>
+				<div class="header__mobile-nav-container">
+					<nav class="header__mobile-nav">
+						<a class="header__mobile-item" href="./index.html">Home</a>
+						<a class="header__mobile-item" href="./about.html">About</a>
+						<a class="header__mobile-item" href="./services.html"> Services </a>
+						<a class="header__mobile-item" href="./reviews.html"> Reviews </a>
+						<a class="header__mobile-item" href="./rescue.html">Rescue </a>
+						<a class="header__mobile-item" href="./faq.html">FAQ</a>
+						<a
+							href="mailto:info@walkswithalex.com"
+							target="_blank"
+							class="header__mobile-item"
+						>
+							Email Us
+						</a>
+					</nav>
+				</div>
 			</div>
 		</header>
 
