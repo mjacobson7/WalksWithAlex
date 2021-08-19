@@ -1,6 +1,5 @@
 .faq__item_show {
-	opacity: 1;
 	max-height: 500px;
 	visibility: visible;
-	transition: opacity 0.3s 0.5s, max-height 1s ease-in-out;
+	transition: max-height 1s ease;
 }

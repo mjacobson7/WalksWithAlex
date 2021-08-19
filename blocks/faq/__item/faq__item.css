@@ -5,8 +5,8 @@
 	border: 2px solid #e5e5e5;
 	border-top: none;
 	box-sizing: border-box;
-	opacity: 0;
 	visibility: hidden;
 	max-height: 0;
-	transition: max-height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+	overflow: hidden;
+	transition: max-height 0.35s ease, visibility 0s 0.35s;
 }
