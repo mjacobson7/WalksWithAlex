@@ -1,6 +1,5 @@
 .faq__item {
-	max-width: 984px;
-	width: 100%;
+	width: calc(100% - 30px);
 	margin: auto;
 	border: 2px solid #e5e5e5;
 	border-top: none;

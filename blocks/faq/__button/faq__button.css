@@ -1,6 +1,5 @@
 .faq__button {
-	max-width: 984px;
-	width: 100%;
+	width: calc(100% - 30px);
 	padding: 15px;
 	text-align: left;
 	display: flex;
