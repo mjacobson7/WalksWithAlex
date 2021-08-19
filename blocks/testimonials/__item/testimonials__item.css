@@ -1,6 +1,13 @@
 .testimonials__item {
-	max-width: 250px;
+	/* max-width: 250px;
 	display: flex;
 	flex-direction: column;
-	padding-top: 50px;
+	padding-top: 50px; */
+
+	background: #fff;
+	box-shadow: 0 8px 30px -7px #c9dff0;
+	margin: 0 20px;
+	padding: 0 10px;
+	border-radius: 20px;
+	border: 0;
 }

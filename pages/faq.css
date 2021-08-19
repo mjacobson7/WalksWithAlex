@@ -27,6 +27,7 @@
 @import url(../blocks/faq/__button/faq__button.css);
 @import url(../blocks/faq/__chevron/faq__chevron.css);
 @import url(../blocks/faq/__item/faq__item.css);
+@import url(../blocks/faq/__item/_show/faq__item_show.css);
 @import url(../blocks/faq/__description/faq__description.css);
 
 /* Footer */
