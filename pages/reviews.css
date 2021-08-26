@@ -19,6 +19,17 @@
 @import url(../blocks/header/__mobile-nav/header__mobile-nav.css);
 @import url(../blocks/header/__mobile-item/header__mobile-item.css);
 
+/* Testimonials */
+@import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__title/testimonials__title.css);
+@import url(../blocks/testimonials/__list/testimonials__list.css);
+@import url(../blocks/testimonials/__item/testimonials__item.css);
+@import url(../blocks/testimonials/__subtitle/testimonials__subtitle.css);
+@import url(../blocks/testimonials/__text/testimonials__text.css);
+@import url(../blocks/testimonials/__author/testimonials__author.css);
+@import url(../blocks/testimonials/__author-image/testimonials__author-image.css);
+@import url(../blocks/testimonials/__author-name/testimonials__author-name.css);
+
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
@@ -41,5 +52,4 @@
 /* Button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_yellow.css);
-@import url(../blocks/button/_color/button_color_green.css);
 @import url(../blocks/paragraph-text/paragraph-text.css);

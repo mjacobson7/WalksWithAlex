@@ -25,13 +25,12 @@
 /* Button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_yellow.css);
-@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_transparent.css);
 @import url(../blocks/paragraph-text/paragraph-text.css);
 
 /* Services */
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
-@import url(../blocks/services/__btn/services__btn.css);
 
 /* Cards */
 @import url(../blocks/cards/cards.css);

@@ -54,5 +54,5 @@
 /* Button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_yellow.css);
-@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_yellow.css);
 @import url(../blocks/paragraph-text/paragraph-text.css);
