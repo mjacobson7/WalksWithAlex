@@ -1,0 +1,44 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}
+@font-face{font-display:swap;font-family:Didot;font-style:italic;font-weight:400;src:url(2277461894c2fa062d5d.woff) format("woff")}@font-face{font-display:swap;font-family:PlayfairDisplay;font-style:normal;font-weight:700;src:url(d4e03c2c91174332e83b.woff) format("woff")}@font-face{font-display:swap;font-family:PlayfairDisplay;font-style:normal;font-weight:400;src:url(89aeb04deaf54df2b9e0.woff) format("woff")}@font-face{font-display:swap;font-family:WorkSans;font-style:normal;font-weight:200;src:url(745aef453471ea63ff3d.woff2) format("woff2")}@font-face{font-display:swap;font-family:WorkSans;font-style:normal;font-weight:600;src:url(23694b13c0b99ab93f3a.woff) format("woff")}
+.header{align-items:center;display:flex;justify-content:space-between;margin-top:38px}
+.header__title{font-size:25px;margin:0 20px 0 90px;text-decoration:none;text-transform:uppercase}@media screen and (max-width:1150px){.header__title{margin:0 20px}}
+.header__menu{margin-right:40px}@media screen and (max-width:1140px){.header__menu{margin-right:20px}}
+@media screen and (max-width:940px){.header__menu_desktop{display:none}}
+@media screen and (min-width:940px){.header__menu_mobile{display:none}}
+.header__menu-item{display:inline-block;padding:11px 25px;text-decoration:none;transition:color .4s ease}.header__menu-item:hover{color:#2e612e}@media screen and (max-width:1140px){.header__menu-item{padding:11px 15px}}@media screen and (max-width:825px){.header__menu-item:last-child{display:block;max-width:unset}}
+.header__menu-item_active{color:#ff8b7b!important}
+.header__menu-icon{cursor:pointer;font-size:30px}
+
+.header__menu-icon_close{float:right}
+.header__menu-icon_hide{display:none!important}
+.header__menu-item_button{background-color:#2e612d;border:none;color:#fff;cursor:pointer;font-family:WorkSans,sans-serif;font-size:14px;font-weight:200;max-height:40px;max-width:148px;transition:background-color .4s ease}.header__menu-item_button:hover{background-color:#8896cd;color:#fff}
+.header__mobile-nav-container{background-color:#fff;bottom:0;display:none;left:0;position:fixed;right:0;top:68px}
+.header__mobile-nav-container_active{align-items:flex-start;display:flex;justify-content:center;margin-top:40px}
+.header__mobile-nav{align-items:center;display:flex;flex-direction:column}
+.header__mobile-item{color:#3a3b3d;font-family:worksans,sans-serif;font-size:20px;font-weight:800;margin-top:30px;text-decoration:none}
+.testimonials{margin:auto;max-width:1500px;padding-bottom:150px;text-align:center}
+.testimonials__title{font-size:62px;margin-top:150px;text-align:center}@media screen and (max-width:775px){.testimonials__title{font-size:50px}}@media screen and (max-width:600px){.testimonials__title{margin-top:100px}}
+.testimonials__list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,460px));justify-content:center;list-style:none;margin:0 0 50px;padding:0}
+.testimonials__item{background:#fff;border:0;border-radius:20px;box-shadow:0 8px 30px -7px rgba(0,0,0,.6);display:flex;flex-direction:column;margin:20px;padding:20px}
+.testimonials__subtitle{color:#2e612e;font-family:Didot,sans-serif;font-size:30px;font-weight:700;margin-top:10px;text-align:center}
+.testimonials__text{color:#3a3b3d;font-family:WorkSans,sans-serif;margin:0 0 30px;text-align:center}
+.testimonials__author{align-items:center;display:flex;margin-top:auto}
+.testimonials__author-image{border-radius:50%;margin-right:20px;max-width:100px}
+.testimonials__author-name{color:#3a3b3d;display:inline-block;font-family:WorkSans,sans-serif;font-size:20px;font-weight:700}
+.footer{background-color:#f8b423;background-image:url(55f6b0fb2769abef8d21.webp);background-position:0 100%;background-repeat:no-repeat;background-size:350px;min-height:845px;padding-bottom:100px}@media screen and (max-width:750px){.footer{padding-bottom:190px}}
+.footer__title{color:#3a3b3d!important;font-size:62px;margin:0 auto;max-width:800px;padding-top:75px;text-align:center;text-transform:uppercase}@media screen and (max-width:775px){.footer__title{font-size:50px}}
+.footer__contact-list{display:flex;justify-content:space-between;list-style:none;margin:70px auto;max-width:800px;padding:0;width:90%}@media screen and (max-width:750px){.footer__contact-list{flex-direction:column}}@media screen and (max-width:600px){.footer__contact-list{margin-top:30px}}
+
+.footer__subtitle{color:#3a3b3d;font-family:PlayfairDisplay,sans-serif;font-size:18px;font-weight:700;text-align:center;text-transform:uppercase}@media screen and (max-width:750px){.footer__subtitle{margin-bottom:0}}
+.footer__text{color:#3a3b3d;font-family:PlayfairDisplay,sans-serif;font-size:18px;margin:0;text-align:center}
+.contact{background-color:#dedede;border-radius:10px;display:grid;gap:20px;grid-template-areas:"name email" "message message" "submit submit";margin:0 auto;max-width:800px;padding:20px;width:90%}@media screen and (max-width:550px){.contact{border-radius:0;grid-template-areas:"name" "email" "message" "submit";padding:10px;width:unset}}
+.contact__input{border:none;border-bottom:1px solid #fff;padding:10px}.contact__input::-moz-placeholder{font-family:WorkSans,sans-serif}.contact__input:-ms-input-placeholder{font-family:WorkSans,sans-serif}.contact__input::placeholder{font-family:WorkSans,sans-serif}
+.contact__input_type_name{grid-area:name}
+.contact__input_type_email{grid-area:email}
+.contact__input_type_message{grid-area:message;resize:none}
+.contact__submit{background:transparent;border:2px solid #2e612e;border-radius:30px;color:#2e612e;cursor:pointer;font-family:WorkSans,sans-serif;font-size:20px;font-weight:600;grid-area:submit;margin:0 auto;padding:15px 35px;text-transform:uppercase;transition:color .2s ease,background-color .2s ease}.contact__submit:hover{background-color:#2e612e;color:#fff}
+.heading-text{color:#2e612e;font-family:PlayfairDisplay,sans-serif;font-weight:700}
+.button{border:1px solid #000;color:#000;cursor:pointer;display:inline-block;font-family:WorkSans,sans-serif;font-size:14px;font-weight:200;height:50px;line-height:50px;max-width:140px;padding:0 28px;text-align:center;text-decoration:none;text-transform:uppercase;transition:opacity .4s ease,background-color .4s ease,color .4s ease}.button:hover{opacity:.6}
+.button_color_yellow{background-color:#f8b423;border:none;color:#3a3b3d}.button_color_yellow:hover{background-color:#2e612e;color:#fff;opacity:1}
+.paragraph-text{color:#3a3b3d;font-family:worksans,sans-serif;font-size:16px;font-weight:200;letter-spacing:.56px;line-height:25px}
+
