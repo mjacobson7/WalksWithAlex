@@ -5,12 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./pages/about.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		/>
-		<link rel="import" href="./templates/header.html" id="templates" />
 	</head>
 	<body>
 		<header class="header">
@@ -76,7 +74,7 @@
 			<section class="about">
 				<div class="about__section">
 					<img
-						src="./images/alexWithHappyDog.png"
+						src="<%=require('./images/alexWithHappyDog.png')%>"
 						alt="Photo of Alex & Kelli Jacobson with their furry friends"
 						class="about__photo"
 					/>
@@ -84,21 +82,21 @@
 						Alex
 					</h2>
 					<p class="about__text paragraph-text">
-						I'm a paragraph. Click here to add your own text and edit me. It’s
-						easy. Just click “Edit Text” or double click me to add your own
-						content and make changes to the font. Feel free to drag and drop me
-						anywhere you like on your page. I’m a great place for you to tell a
-						story and let your users know a little more about you. ​ This is a
-						great space to write long text about your company and your services.
-						You can use this space to go into a little more detail about your
-						company. Talk about your team and what services you provide. Tell
-						your visitors the story of how you came up with the idea for your
-						business and what makes you different from your competitors.
+						Alex has worked with dogs professionally since 2018 when he began
+						his career as a professional dog walker. driven by a desire to
+						improve the life of dogs he began volunteering with various animal
+						rescues in the los angeles area. During that time he has learned to
+						work with dogs of varying ages/temperaments/medical conditions/etc.
+						Alex has a strong desire to learn and is always looking for
+						opportunities to grow his knowledge about dogs and dog behavior. He
+						has compassion for all animals but a special place in his heart for
+						dogs that have difficulty communicating their needs and need extra
+						patience and understanding.
 					</p>
 				</div>
 				<div class="about__section about__section_reversed">
 					<img
-						src="./images/alexWithHappyDog.png"
+						src="<%=require('./images/alexWithHappyDog.png')%>"
 						alt="Photo of Alex & Kelli Jacobson with their furry friends"
 						class="about__photo"
 					/>
@@ -106,16 +104,16 @@
 						Kelli
 					</h2>
 					<p class="about__text paragraph-text">
-						I'm a paragraph. Click here to add your own text and edit me. It’s
-						easy. Just click “Edit Text” or double click me to add your own
-						content and make changes to the font. Feel free to drag and drop me
-						anywhere you like on your page. I’m a great place for you to tell a
-						story and let your users know a little more about you. ​ This is a
-						great space to write long text about your company and your services.
-						You can use this space to go into a little more detail about your
-						company. Talk about your team and what services you provide. Tell
-						your visitors the story of how you came up with the idea for your
-						business and what makes you different from your competitors.
+						Kelli grew up rescuing animals of all sizes. She was known in her
+						neighborhood as the animal search and rescue expert and learned to
+						communicate with animals and gain their trust. She began
+						volunteering at a local animal rescue where she realized how much
+						her knowledge and experience could help dogs in need. Kelli has
+						continued to help rehabilitate rescue dogs. When she is not actively
+						working with client dogs, she is the Director of Operations for a
+						Los Angeles 501c3 animal rescue. Kelli is incredibly grateful to be
+						working in a field that she is passionate about and doing so
+						alongside her spouse, Alex.
 					</p>
 				</div>
 			</section>
@@ -169,6 +167,5 @@
 				<button class="contact__submit" type="submit">Submit</button>
 			</form>
 		</footer>
-		<script type="module" src="./scripts/index.js"></script>
 	</body>
 </html>

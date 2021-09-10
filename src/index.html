@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./pages/index.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -81,7 +80,11 @@
 					class="intro__btn button button_color_yellow"
 					>Schedule a Walk</a
 				>
-				<img class="intro__logo" src="./images/logo.webp" alt="Logo" />
+				<img
+					class="intro__logo"
+					src="<%=require('./images/logo.webp')%>"
+					alt="Logo"
+				/>
 			</section>
 			<section class="mission">
 				<h2 class="mission__title heading-text">Our Mission</h2>
@@ -115,7 +118,11 @@
 				<h2 class="services__title heading-text">Popular Services</h2>
 				<ul class="cards">
 					<li class="card">
-						<img src="./images/walk30.webp" alt="" class="card__img" />
+						<img
+							src="<%=require('./images/walk30.webp')%>"
+							alt=""
+							class="card__img"
+						/>
 						<h3 class="card__title">Walk - 30 minutes</h3>
 						<p class="card__subtitle paragraph-text">
 							Use this area to describe one of your services.
@@ -128,7 +135,11 @@
 						>
 					</li>
 					<li class="card">
-						<img src="./images/walk60.webp" alt="" class="card__img" />
+						<img
+							src="<%=require('./images/walk60.webp')%>"
+							alt=""
+							class="card__img"
+						/>
 						<h3 class="card__title">Walk - 60 minutes</h3>
 						<p class="card__subtitle paragraph-text">
 							Use this area to describe one of your services.
@@ -142,7 +153,7 @@
 					</li>
 					<li class="card">
 						<img
-							src="./images/boardingovernight.webp"
+							src="<%=require('./images/boardingovernight.webp')%>"
 							alt=""
 							class="card__img"
 						/>
@@ -169,7 +180,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram1.jpeg"
+								src="<%=require('./images/instagram1.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -187,7 +198,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram2.jpeg"
+								src="<%=require('./images/instagram2.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -203,7 +214,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram3.jpeg"
+								src="<%=require('./images/instagram3.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -218,7 +229,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram4.jpeg"
+								src="<%=require('./images/instagram4.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -233,7 +244,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram5.jpeg"
+								src="<%=require('./images/instagram5.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -249,7 +260,7 @@
 						<a class="photo-grid__link" href="">
 							<img
 								class="photo-grid__image"
-								src="./images/instagram6.jpeg"
+								src="<%=require('./images/instagram6.jpeg')%>"
 								alt=""
 							/>
 							<div class="photo-grid__overlay"></div>
@@ -280,7 +291,7 @@
 						</p>
 						<div class="testimonials__author">
 							<img
-								src="./images/profile.png"
+								src="<%=require('./images/profile.png')%>"
 								alt=""
 								class="testimonials__author-image"
 							/>
@@ -299,7 +310,7 @@
 						</p>
 						<div class="testimonials__author">
 							<img
-								src="./images/profile.png"
+								src="<%=require('./images/profile.png')%>"
 								alt=""
 								class="testimonials__author-image"
 							/>
@@ -321,7 +332,7 @@
 						</p>
 						<div class="testimonials__author">
 							<img
-								src="./images/profile.png"
+								src="<%=require('./images/profile.png')%>"
 								alt=""
 								class="testimonials__author-image"
 							/>
@@ -384,5 +395,4 @@
 			</form>
 		</footer>
 	</body>
-	<script type="module" src="./scripts/index.js"></script>
 </html>

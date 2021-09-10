@@ -1,3 +1,5 @@
+import '../pages/faq.css';
+
 // Variables 
 const faqs = document.querySelectorAll('.faq__button');
 
