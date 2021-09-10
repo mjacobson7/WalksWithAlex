@@ -1,1 +1,0 @@
-(()=>{"use strict";document.querySelectorAll(".faq__button").forEach((function(e){e.addEventListener("click",(function(e){var t,r;t=e.currentTarget.nextElementSibling,r=e.currentTarget.querySelector(".faq__chevron"),t.classList.toggle("faq__item_show"),r.classList.toggle("faq__chevron_rotate")}))}))})();
