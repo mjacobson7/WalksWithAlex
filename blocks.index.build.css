@@ -40,7 +40,7 @@
 .photo-grid__overlay{background-color:#414141;height:100%;left:0;opacity:0;position:absolute;top:0;transition:opacity .2s ease;width:100%}
 .photo-grid__text{color:#fff;font-family:worksans,sans-serif;font-size:20px;font-weight:200;left:50%;line-height:30px;margin:0;opacity:0;position:absolute;text-align:center;top:50%;transform:translate(-50%,-50%);transition:opacity .2s ease;width:80%}@media screen and (max-width:450px){.photo-grid__text{font-size:15px}}
 .testimonials{margin:auto;max-width:1500px;padding-bottom:150px;text-align:center}
-.testimonials__title{font-size:62px;margin-top:150px;text-align:center}@media screen and (max-width:775px){.testimonials__title{font-size:50px}}@media screen and (max-width:600px){.testimonials__title{margin-top:100px}}
+.testimonials__title{font-size:62px;margin-top:150px;text-align:center;text-transform:uppercase}@media screen and (max-width:775px){.testimonials__title{font-size:50px}}@media screen and (max-width:600px){.testimonials__title{margin-top:100px}}
 .testimonials__list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,460px));justify-content:center;list-style:none;margin:0 0 50px;padding:0}
 .testimonials__item{background:#fff;border:0;border-radius:20px;box-shadow:0 8px 30px -7px rgba(0,0,0,.6);display:flex;flex-direction:column;margin:20px;padding:20px}
 .testimonials__subtitle{color:#2e612e;font-family:Didot,sans-serif;font-size:30px;font-weight:700;margin-top:10px;text-align:center}

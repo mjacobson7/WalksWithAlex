@@ -17,7 +17,7 @@
 .header__mobile-nav{align-items:center;display:flex;flex-direction:column}
 .header__mobile-item{color:#3a3b3d;font-family:worksans,sans-serif;font-size:20px;font-weight:800;margin-top:30px;text-decoration:none}
 .testimonials{margin:auto;max-width:1500px;padding-bottom:150px;text-align:center}
-.testimonials__title{font-size:62px;margin-top:150px;text-align:center}@media screen and (max-width:775px){.testimonials__title{font-size:50px}}@media screen and (max-width:600px){.testimonials__title{margin-top:100px}}
+.testimonials__title{font-size:62px;margin-top:150px;text-align:center;text-transform:uppercase}@media screen and (max-width:775px){.testimonials__title{font-size:50px}}@media screen and (max-width:600px){.testimonials__title{margin-top:100px}}
 .testimonials__list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,460px));justify-content:center;list-style:none;margin:0 0 50px;padding:0}
 .testimonials__item{background:#fff;border:0;border-radius:20px;box-shadow:0 8px 30px -7px rgba(0,0,0,.6);display:flex;flex-direction:column;margin:20px;padding:20px}
 .testimonials__subtitle{color:#2e612e;font-family:Didot,sans-serif;font-size:30px;font-weight:700;margin-top:10px;text-align:center}
