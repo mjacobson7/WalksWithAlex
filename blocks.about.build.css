@@ -20,7 +20,7 @@
 
 .about__section{display:grid;gap:0 20px;grid-template-areas:"photo title title" "photo text text" "photo button button";margin:auto auto 50px;max-width:900px;width:calc(100% - 80px)}@media screen and (max-width:800px){.about__section{gap:30px;grid-template-areas:"photo" "title" "text" "button";text-align:center}}
 .about__section_reversed{grid-template-areas:"title title photo" "text text photo" "button button photo"}@media screen and (max-width:800px){.about__section_reversed{gap:30px;grid-template-areas:"photo" "title" "text" "button";text-align:center}}
-.about__photo{border-radius:50%;grid-area:photo;margin:auto;max-width:400px;min-width:200px;width:100%}
+.about__photo{border-radius:50%;grid-area:photo;margin:auto;width:400px}@media screen and (max-width:880px){.about__photo{max-width:400px;min-width:200px;width:100%}}
 .about__title{align-self:flex-end;font-size:62px;grid-area:title;margin:0;text-transform:uppercase}@media screen and (max-width:775px){.about__title{font-size:50px}}
 .about__text{align-self:center;grid-area:text;margin:0}
 .about__btn{grid-area:button;line-height:25px;margin-top:10px}@media screen and (max-width:600px){.about__btn{max-width:100%!important}}
