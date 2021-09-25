@@ -7,6 +7,9 @@
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__social/header__social.css);
+@import url(../blocks/header/__social-image/header__social-image.css);
+@import url(../blocks/header/__social-link/header__social-link.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu/_desktop/header__menu_desktop.css);
 @import url(../blocks/header/__menu/_mobile/header__menu_mobile.css);
@@ -39,6 +42,10 @@
 @import url(../blocks/footer/__contact-item/footer__contact-item.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__text/footer__text.css);
+
+/* Certifications */
+@import url(../blocks/certifications/certifications.css);
+@import url(../blocks/certifications/__image/certifications__image.css);
 
 /* Contact */
 @import url(../blocks/contact/contact.css);

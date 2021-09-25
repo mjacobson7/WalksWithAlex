@@ -5,7 +5,7 @@
 	text-transform: uppercase;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
 	.header__title {
 		margin: 0 20px 0 20px;
 	}

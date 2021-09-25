@@ -1,6 +1,6 @@
 .intro {
 	display: grid;
-	grid-template-areas: 'title logo logo logo logo' 'subtitle logo logo logo logo' 'button logo logo logo logo';
+	grid-template-areas: 'title . logo logo logo logo' 'subtitle . logo logo logo logo' 'button social logo logo logo logo';
 	max-width: 900px;
 	width: calc(100% - 40px);
 	margin: auto;
