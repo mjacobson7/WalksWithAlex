@@ -2,13 +2,13 @@
 @font-face{font-display:swap;font-family:Didot;font-style:italic;font-weight:400;src:url(2277461894c2fa062d5d.woff) format("woff")}@font-face{font-display:swap;font-family:PlayfairDisplay;font-style:normal;font-weight:700;src:url(d4e03c2c91174332e83b.woff) format("woff")}@font-face{font-display:swap;font-family:PlayfairDisplay;font-style:normal;font-weight:400;src:url(89aeb04deaf54df2b9e0.woff) format("woff")}@font-face{font-display:swap;font-family:WorkSans;font-style:normal;font-weight:200;src:url(745aef453471ea63ff3d.woff2) format("woff2")}@font-face{font-display:swap;font-family:WorkSans;font-style:normal;font-weight:600;src:url(23694b13c0b99ab93f3a.woff) format("woff")}
 .page__title{font-size:62px;margin:100px 0;text-align:center;text-transform:uppercase}
 .header{align-items:center;display:flex;justify-content:space-between;margin-top:38px}
+.header__logo-container{display:flex}@media screen and (max-width:450px){.header__logo-container{flex-direction:column}}
 .header__title{font-size:25px;margin:0 20px 0 90px;text-decoration:none;text-transform:uppercase}@media screen and (max-width:1250px){.header__title{margin:0 20px}}@media screen and (max-width:500px){.header__title{margin:0 10px}}
-.header__social{margin-right:auto}
-.header__social-image{vertical-align:bottom}
+.header__social-container{margin-left:0}@media screen and (max-width:450px){.header__social-container{margin:10px 0 0 10px}}
 .header__social-link{text-decoration:none}
 .header__menu{margin-right:40px}@media screen and (max-width:1140px){.header__menu{margin-right:20px}}@media screen and (max-width:500px){.header__menu{margin-right:10px}}
 @media screen and (max-width:1000px){.header__menu_desktop{display:none}}
-@media screen and (min-width:1001px){.header__menu_mobile{display:none}}
+.header__menu_mobile{align-self:flex-start}@media screen and (min-width:1001px){.header__menu_mobile{display:none}}
 .header__menu-item{display:inline-block;padding:11px 25px;text-decoration:none;transition:color .4s ease}.header__menu-item:hover{color:#2e612e}@media screen and (max-width:1140px){.header__menu-item{padding:11px 15px}}@media screen and (max-width:825px){.header__menu-item:last-child{display:block;max-width:unset}}
 .header__menu-item_active{color:#ff8b7b!important}
 .header__menu-icon{cursor:pointer;font-size:30px}
