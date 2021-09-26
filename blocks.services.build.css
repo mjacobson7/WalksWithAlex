@@ -32,6 +32,11 @@
 .card__title{color:#3a3b3d;font-family:WorkSans,sans-serif;font-size:24px;font-weight:600}@media screen and (max-width:600px){.card__title{margin:10px 0}}
 .card__price{font-size:20px;font-weight:800;margin-top:0}
 .card__subtitle{font-size:16px!important;letter-spacing:0!important;line-height:24px!important;margin:0 0 35px;text-align:center}@media screen and (max-width:600px){.card__subtitle{margin-bottom:10px}}
+.card__link{color:#3a3b3d;cursor:pointer;text-decoration:underline}
+.card__dots{display:none}
+.card__dots_visible{display:block}
+.card__read-more{display:none}
+.card__read-more_visible{display:block}
 .card__btn{margin-top:auto}
 .footer{background-color:#f8b423;background-image:url(55f6b0fb2769abef8d21.webp);background-position:0 100%;background-repeat:no-repeat;background-size:350px;min-height:845px;padding-bottom:100px}@media screen and (max-width:1350px){.footer{padding-bottom:190px}}
 .footer__title{color:#3a3b3d!important;font-size:62px;margin:0 auto;max-width:800px;padding-top:75px;text-align:center;text-transform:uppercase}@media screen and (max-width:775px){.footer__title{font-size:50px}}
