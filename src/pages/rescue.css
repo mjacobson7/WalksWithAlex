@@ -30,13 +30,21 @@
 @import url(../blocks/rescue-partners/rescue-partners.css);
 @import url(../blocks/rescue-partners/__link/rescue-partners__link.css);
 
+/* Photo Collage */
+@import url(../blocks/photo-collage/photo-collage.css);
+@import url(../blocks/photo-collage/__image/photo-collage__image.css);
+@import url(../blocks/photo-collage/__item/photo-collage__item.css);
+@import url(../blocks/photo-collage/__item/_col-span-2/photo-collage__item_col-span-2.css);
+@import url(../blocks/photo-collage/__item/_col-span-3/photo-collage__item_col-span-3.css);
+@import url(../blocks/photo-collage/__item/_row-span-2/photo-collage__item_row-span-2.css);
+
 /* Photo Grid */
-@import url(../blocks/photo-grid/photo-grid.css);
+/* @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__link/photo-grid__link.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 @import url(../blocks/photo-grid/__overlay/photo-grid__overlay.css);
-@import url(../blocks/photo-grid/__text/photo-grid__text.css);
+@import url(../blocks/photo-grid/__text/photo-grid__text.css); */
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
