@@ -1,13 +1,9 @@
-var express = require('express');
-var cors = require('cors');
+const express = require('express');
+const cors = require('cors');
+const app = express();
 
-var app = express();
-
-// app.use(express.static('public'));
 app.use(express.static(__dirname + './../dist'));
-
 app.use(cors());
-
 app.use(
 	express.urlencoded({
 		extended: true,
