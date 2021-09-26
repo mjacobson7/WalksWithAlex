@@ -38,13 +38,13 @@
 @import url(../blocks/photo-collage/__item/_col-span-3/photo-collage__item_col-span-3.css);
 @import url(../blocks/photo-collage/__item/_row-span-2/photo-collage__item_row-span-2.css);
 
-/* Photo Grid */
-/* @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__link/photo-grid__link.css);
-@import url(../blocks/photo-grid/__image/photo-grid__image.css);
-@import url(../blocks/photo-grid/__overlay/photo-grid__overlay.css);
-@import url(../blocks/photo-grid/__text/photo-grid__text.css); */
+/* Popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__content/_content/popup__content_content_image.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/_is-opened/popup_is-opened.css);
+@import url(../blocks/popup/__image/popup__image.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);

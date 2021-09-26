@@ -1,4 +1,4 @@
 .photo-collage__item {
 	list-style: none;
-	/* width: auto; */
+	cursor: pointer;
 }
