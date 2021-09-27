@@ -1,6 +1,7 @@
 .rescue-partners {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	margin: 10px auto 40px;
 	text-decoration: none;
 	max-width: 1400px;

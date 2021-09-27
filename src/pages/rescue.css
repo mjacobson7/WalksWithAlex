@@ -28,7 +28,7 @@
 
 /* Rescue Partners */
 @import url(../blocks/rescue-partners/rescue-partners.css);
-@import url(../blocks/rescue-partners/__link/rescue-partners__link.css);
+@import url(../blocks/rescue-partners/__image/rescue-partners__image.css);
 
 /* Photo Collage */
 @import url(../blocks/photo-collage/photo-collage.css);
